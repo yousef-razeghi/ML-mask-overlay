@@ -1,14 +1,3 @@
-# PL ROI → JV Assignment (NOMAD NORTH)
-
-Drop this whole folder into a NOMAD NORTH workspace and open
-`ROI_JV_NOMAD_app.ipynb` (works in Jupyter and under Voila). Run the two cells.
-
-## Authentication (multi-user)
-Per-user, no shared credentials. On NOMAD NORTH each user's session carries their own
-`NOMAD_CLIENT_ACCESS_TOKEN`; the app reads it at startup and **auto-connects as that user**,
-so anyone who is signed in just opens the app and sees only the data their account allows.
-No username/password is ever entered or stored. The Token field is an optional override only.
-
 ## What's in the folder
 - `ROI_JV_NOMAD_app.ipynb` — the app (setup cell + engine/integration cell).
 - `cell_layout_5x5.dxf` — the bundled 5×5 cell mask (no upload needed).
